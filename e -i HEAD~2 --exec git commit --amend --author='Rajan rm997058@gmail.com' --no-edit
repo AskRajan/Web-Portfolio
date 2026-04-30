@@ -1,0 +1,62 @@
+[33mcommit b71942caf5f5bed64aabd72f275b3307c2129155[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Rajan <rm997058@gmail.com>
+Date:   Sat Apr 25 22:20:00 2026 +0530
+
+    Live Link Update
+
+[33mcommit 483797254009860cab3c1d60043524c7fae95d60[m
+Author: Rajan <rm997058@gmail.comm>
+Date:   Sat Apr 25 22:12:24 2026 +0530
+
+    css updated main section
+
+[33mcommit 80452f87bfd6e2ee616b792e81f1f53ae092503a[m
+Author: Rajan <rm997058@gmail.comm>
+Date:   Sat Apr 25 01:42:14 2026 +0530
+
+    latest section code update
+
+[33mcommit 0344eb84486d99e00c7fa23bc7cde5a2904e9eba[m
+Merge: 50daa01 cdd13de
+Author: Ask Rajan <135345224+AskRajan@users.noreply.github.com>
+Date:   Fri Apr 24 15:18:46 2026 +0530
+
+    Merge pull request #1 from AskRajan/feature/header
+    
+    header css Property added
+
+[33mcommit cdd13de184229e0be82f74f3cd5fc4a4d897fc48[m[33m ([m[1;31morigin/feature/header[m[33m)[m
+Author: Rajan <rm997058@gmail.comm>
+Date:   Fri Apr 24 14:23:57 2026 +0530
+
+    header css Property added
+
+[33mcommit 50daa019168a81c0b0e253662c9adacd6bee442a[m
+Author: Ask Rajan <135345224+AskRajan@users.noreply.github.com>
+Date:   Fri Apr 24 10:08:29 2026 +0530
+
+    README.md Update
+
+[33mcommit 10579e1daae52ff8cd877f99a7422f17c7328041[m
+Author: Rajan <rm997058@gmail.comm>
+Date:   Thu Apr 23 20:08:58 2026 +0530
+
+    Image folder created
+
+[33mcommit 7f60f4cf9d54c36f8c07cb731b8f22d657f40f8a[m
+Author: Rajan <rm997058@gmail.comm>
+Date:   Thu Apr 23 20:07:27 2026 +0530
+
+    Fixing html Bugs
+
+[33mcommit ff54e9f47fe50faacd7dd5d88836430f53e0dae1[m
+Author: Rajan <rm997058@gmail.comm>
+Date:   Thu Apr 23 20:06:02 2026 +0530
+
+    portfolio basic structure html
+
+[33mcommit 708a9ba5550278540b7e0d6cfde7e2d451087aab[m
+Author: Ask Rajan <rm997058@gamil.com>
+Date:   Thu Apr 23 20:01:06 2026 +0530
+
+    basic portfolio Structure
