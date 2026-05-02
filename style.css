@@ -159,6 +159,7 @@ nav a:hover {
 }
 
 @media (max-width: 1000px) {
+    /* Section 1 */
     .section-card {
         flex-direction: column;
         gap: 4rem;
@@ -176,4 +177,59 @@ nav a:hover {
         object-fit: cover;
     }
     
+}
+
+/* Section Skill 2 */
+
+.section-skill {
+    background-color: var(--bgColor);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.section-skill span {
+    color: var(--second);
+    border: 1px solid var(--textColor);
+    padding: 10px 10px 10px 5px;
+    border-radius: 10px;
+}
+
+.skill-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.skill-info {
+    width: 120px;
+    height: 200px;
+    border: 0.2rem solid var(--second);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 15px;
+    
+}
+
+.skill-info p {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+    .skill-box {
+        grid-template-columns: 40% 40%;
+        margin-top: 5rem;
+        justify-items: center;
+        gap: 1rem;
+        
+    }
 }
