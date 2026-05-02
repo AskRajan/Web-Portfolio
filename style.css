@@ -26,13 +26,13 @@ header {
     width: 100%;
     padding: 1rem;
     background-color: transparent;
-    filter: drop-shadow(10px);
     position: fixed;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    backdrop-filter: blur(10px);
 }
 
 .logo {
@@ -66,6 +66,7 @@ nav a:hover {
 
 @media (max-width: 800px) {
     nav {
+        background-color: var(--bgColor);
         display: none;
         flex-direction: column;
         position: absolute;
@@ -73,9 +74,7 @@ nav a:hover {
         width: 250px;
         top: 0;
         right: 0;
-        backdrop-filter: blur(10px);
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-        margin-top: 5rem;
     }
 
     nav a {
@@ -83,11 +82,17 @@ nav a:hover {
         padding: 20px;
     }
 
+    #homelink {
+        margin-top: 6rem;
+    }
+
+
     .hamburger {
         display: block;
         z-index: 999;
         font-size: 3rem;
         cursor: pointer;
+
     }
 
     nav.active{
@@ -140,7 +145,7 @@ nav a:hover {
 }
 
 .hire-me {
-    width: 8rem;
+    width: 9rem;
     display: inline-flex;
     align-items: center;
     font-weight: 600;
@@ -217,7 +222,12 @@ nav a:hover {
     flex-direction: column;
     gap: 2rem;
     border-radius: 15px;
+    transition: 0.5s ease-out;
     
+}
+
+.skill-info:hover {
+    transform: scale(1.2);
 }
 
 .skill-info p {
@@ -229,7 +239,7 @@ nav a:hover {
         grid-template-columns: 40% 40%;
         margin-top: 5rem;
         justify-items: center;
-        gap: 1rem;
+        gap: 1.5rem;
         
     }
 }
