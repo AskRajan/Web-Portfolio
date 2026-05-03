@@ -243,3 +243,72 @@ nav a:hover {
         
     }
 }
+
+/* Section 3 Project Box */
+
+.project-box {
+    width: 100vw;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-box h2 {
+    font-size: 2rem;
+    border-bottom: 0.5rem solid var(--second);
+    border-radius: 20%;
+    margin-bottom: 3rem;
+}
+
+.project-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.project-info {
+    width: 25%;
+    border: 2px solid var(--textColor);
+    border-radius: 5%;
+    padding: 10px;
+    transition: 1.5s ease-out;
+}
+
+.project-info:hover {
+    transform: scale(1.2);
+}
+
+.project-info img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+    .project-main {
+        flex-direction: column;
+    }
+    .project-box {
+        height: 70rem;
+        margin-top: 5rem;
+    }
+    .project-info {
+        width: 90%;
+    }
+}
+
+/* footer */
+
+footer {
+    width: 100vw;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--textColor);
+    margin-top: 1rem;
+}
