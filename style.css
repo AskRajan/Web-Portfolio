@@ -33,6 +33,7 @@ header {
     justify-content: space-between;
     align-items: center;
     backdrop-filter: blur(10px);
+     z-index: 999;
 }
 
 .logo {
@@ -75,6 +76,7 @@ nav a:hover {
         top: 0;
         right: 0;
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+        z-index: 998;
     }
 
     nav a {
